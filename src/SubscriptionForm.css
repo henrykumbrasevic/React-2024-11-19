@@ -1,0 +1,45 @@
+.mainDiv{
+    background-color: #C6E5F3;
+    margin: 20px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    
+}
+h1, h3{
+    text-align: center;
+}
+h3{
+    margin-bottom: 50px;
+}
+h1{
+    padding-top: 50px;
+}
+
+.formAll{
+    text-align: center;
+    .input-field{
+        margin: 10px;
+    }
+    button{
+        margin: 20px;
+        padding: 15px;
+        width: 250px;
+        background-color:#EA7977;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        &:hover{
+            background-color: red;
+            cursor: pointer;
+        }
+    }
+
+
+
+}
+.input-field{
+    padding: 15px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 8px;
+}
